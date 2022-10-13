@@ -1,0 +1,34 @@
+.container {
+    border: 1px solid black;
+    margin: 2rem;
+    height: 40rem;
+    position: relative;
+  }
+  
+  .img-border {
+    border: 1px solid black;
+    width: fit-content;
+  }
+  
+  .img-border img {
+    width: 10rem;
+  }
+  
+  .flex-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem;
+  }
+  
+  .flex-center {
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    transform: translate(-50%, 0);
+  }
+  
+  p,
+  div {
+    font-weight: 600;
+    font-size: 1.5rem;
+  }
